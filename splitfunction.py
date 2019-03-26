@@ -1,0 +1,5 @@
+user=str(input('enter the sequence'))
+user=user.split(',')
+print(user)
+tuple =tuple(user)
+print(tuple)
