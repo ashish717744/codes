@@ -1,9 +1,14 @@
-exam_date =(23,3,12)
-i =exam_date[0]
-j =exam_date[1]
-k =exam_date[2]
-print('The examination will start from :',i,'/',j,'/',k,end=' ')
+#Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn. Go to the editor
+#Sample value of n is 5 
+#Expected Result : 615
+n = int(input('enter the input'))
+list =[n,n,n,n,n,n]
 
-or
-exam_st_date = (11,12,2014)
-print( "The examination will start from : %i / %i / %i"%exam_st_date)
+list[1] =list[[1]+[2]]
+print(list[1])
+list[3]=list[4]+list[5]+list[3]
+
+list[0] =list[1]+list[0]
+list[0] =list[0]+list[3]
+print(list)
+
