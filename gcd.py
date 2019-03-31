@@ -1,0 +1,21 @@
+n1 =int(input('enter the first no'))
+n2 =int(input('enter the second no'))
+if n1>n2:
+   list=[]
+   if True:
+      for i  in range(1,n2+1):
+         for j  in range(1,n2+1):
+            if  n1%i==0 and n2%j==0:
+               list.append(i)
+    
+   print( 'the gcd of the given no is',list[-1])
+          
+   
+else:
+    list=[]
+    for i in range(1,n1+1):
+       for j in range(1,n1+1):
+          if  n1%i==0 and n2%j==0:
+             list.append(i) 
+    print('the gcd of the given no is',list[-1])   
+    
