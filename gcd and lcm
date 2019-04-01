@@ -1,3 +1,5 @@
+
+
 n1 =int(input('enter the first no'))
 n2 =int(input('enter the second no'))
 if n1>n2:
@@ -7,8 +9,9 @@ if n1>n2:
          for j  in range(1,n2+1):
             if  n1%i==0 and n2%j==0:
                list.append(i)
-    
+   lcm =n1*n2/list[-1]           
    print( 'the gcd of the given no is',list[-1])
+   print( 'the lcm of the given no is',lcm)
           
    
 else:
@@ -17,5 +20,9 @@ else:
        for j in range(1,n1+1):
           if  n1%i==0 and n2%j==0:
              list.append(i) 
-    print('the gcd of the given no is',list[-1])   
+    lcm =n1*n2/list[-1]           
+    print( 'the gcd of the given no is',list[-1])
+    print( 'the lcm of the given no is',lcm)
+          
+  
     
